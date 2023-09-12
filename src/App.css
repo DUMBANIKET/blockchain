@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
   font-family: 'Poppins', sans-serif;
+  
 }
+
+.wrapper{
+  margin-top: 20px;
+  height: 230px;
+  width: 300px;
+}
+
 .main{
   height: 230px;
   width: 300px;
-  background-color: rgb(30, 30, 30);
+ 
+  background-color: rgb(17, 17, 17);
   border-radius: 12px;
   color: white;
   position: absolute;
@@ -20,6 +29,7 @@
 
 
 .main img{
+  
   margin: 20px;
 }
 
@@ -28,7 +38,7 @@
   position: inherit;
   transform: translate(-50%,-50%);
   overflow: hidden;
-  left: 40%;
+  left: 45%;
   top: 16%;
 }
 
@@ -37,7 +47,7 @@
   position: inherit;
   transform: translate(-50%,-50%);
   overflow: hidden;
-  left: 40%;
+  left: 45%;
   top: 26%;
 }
 

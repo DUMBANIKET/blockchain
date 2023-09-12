@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+  }
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 580px){
+    .container{
+        flex-direction: column;
+        margin-top: 20px;
+   
+   padding-top: 20px; }
+}
