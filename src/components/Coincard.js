@@ -8,7 +8,7 @@ function Coincard(props) {
 <div className='wrapper'>
 <div className="main">
       <div className="image">
-        <img src={props.img}></img>
+        <img src={props.img} width={"50px"}></img>
       </div>
       <div className="header">
         <h3>{props.name}</h3>
